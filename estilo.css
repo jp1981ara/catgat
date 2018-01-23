@@ -5,18 +5,23 @@ body{
     font-family: serif;
     font-size:  20px;
     font-weight: 500;
-    background-color: #F0F8FF
+    background-color: #ADD8E6;
 }
 
 @font-face {
-    font-family: FontBellmt;
-    src: url(bell_mt.ttf);
+    font-family: EBG;
+    src: url(fonts/EBGaramond-Regular.ttf);
 }
 
+@font-face {
+    font-family: GFSN;
+    src: url(fonts/GFSNeohellenic.ttf);
 }
+
+
 
 #nav{
-  background-color: #F0F8FF;
+  background-color: #9dd0e1;
 }
 
 #bld{
@@ -26,7 +31,7 @@ body{
 }
 
 #nav1{
-  font-family: FontBellmt;
+  font-family: EBG;
   background-color: #696969;
   font-size: 30px;
   font-weight: 500;
@@ -69,4 +74,19 @@ body{
 
 #bod{
   background-color: #DCDCDC;
+}
+
+#ParTEX{
+  width: 700px;
+  margin: 20px;
+  text-align: left;
+  font-family: GFSN;
+  font-size: 20px;
+}
+#evento{
+  width: 700px;
+  margin: 20px;
+  text-align: left;
+  font-family: GFSN;
+  font-size: 20px;
 }
